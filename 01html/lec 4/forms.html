@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Novell Services Login</h3>
+    <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username">
+
+        <br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" minlength="8" maxlength="15">
+
+        <br> <br>
+
+        <label for="city">City of Employment:</label>
+        <input type="text" name="city" id="city" placeholder="Enter your city of employment">
+
+
+        <br> <br>
+
+<label for="web">Web server:</label>
+<select name="web" id="web">
+    <option value=""> --Choose a server--</option>
+    <option value="jio">jio</option>
+    <option value="airtel">airtel</option>
+     <option value="vodafone">vodafone</option>
+</select>
+
+        <br> <br>
+
+        <label for="role">Please specify your role:</label>
+        <pre>
+        <input type="radio" name="role" id="admin" value="admin"><label for="admin"> Admin</label>
+        <input type="radio" name="role" id="user" value="engineer"><label for="engineer"> Engineer</label>
+        <input type="radio" name="role" id="manager" value="manager"><label for="manager"> Manager</label>
+        <input type="radio" name="role" id="guest" value="guest"><label for="guest"> Guest</label>
+        </pre>
+    <br> <br>
+    <pre>
+    <label for="skills">Single Sign-on to the following:</label>
+    <input type="checkbox" name="skills" id="html" value="mail"><label for="mail"> Mail</label>
+    <input type="checkbox" name="skills" id="css" value="payroll"><label for="payroll"> Payroll</label>
+    <input type="checkbox" name="skills" id="js" value="self-service"><label for="self-service"> Self-service</label>
+</pre>
+    <br> <br>
+<div style="text-align: center;">
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
