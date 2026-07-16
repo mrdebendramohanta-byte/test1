@@ -1,0 +1,18 @@
+.one{
+    background-color: cyan;
+    /* width:300px; */
+    max-width: 300px;
+    /* height: 300px; */
+    min-height: 300px;
+}
+
+.parent{
+    background-color: yellow;
+    max-width: 800px;
+     height: 500px; 
+}
+.two{
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+}
