@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+  html{
+        font-size:5px;
+    }
+body{
+    font-size:2em;
+
+}
+div{
+    background-color: rgb(177, 103, 246);
+    width:50vw;
+    height:50vh;
+    padding:5vw;
+    margin:10vh;
+    border:1vh solid black;
+    font-size:2em;
+}
+
+p{
+    background-color: chartreuse;
+    width:20%;
+    height:20%;
+
+    /* em & rem */
+    font-size: 3em;
+    padding:0.5em;
+    margin:1em;
+    border:1em ;
+
+
+}

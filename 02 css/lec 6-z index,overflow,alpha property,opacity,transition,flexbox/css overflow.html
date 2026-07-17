@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css overflow.css">
+</head>
+<body>
+    <div>
+        Css is<span> Awesome</span>
+    </div>
+
+    <script>
+         const divr = document.querySelector("div")
+
+        const spa = document.querySelector("span")
+        spa.addEventListener("click",function () {
+            divr.style.overflow ="scroll";
+            divr.style.textOverflow ="unset";
+        });
+    </script>
+</body>
+</html>
