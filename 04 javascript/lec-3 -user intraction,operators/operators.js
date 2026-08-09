@@ -5,22 +5,23 @@ let x = 10
 x**=2 //x=**2
 console.log(x)
 
-console.log(5 =="5")
-console.log(5 =="4")
+console.log(5 =="5")//true
+console.log(5 =="4")//false
 console.log(5 =="")
 console.log(1==true)
 console.log(1==false)
 
 
-console.log(5 === "5")
+console.log(5 === "5")//false
+console.log(4===4)//true//datatypes and value same
 console.log(1===true)
 console.log(1===false)
 
 console.log(1!=="1")
 console.log(2!=="3")
 
-// console.log(1!==="1")
-// console.log(1!==="2")
+console.log(1!="1")
+console.log(1!="2")
 
 console.log(2 << 3) //4*2^3//32
 console.log(8<<5) //8*2^5//256
